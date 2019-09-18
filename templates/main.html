@@ -1,0 +1,15 @@
+{% extends "default.html" %}
+{% block title %}Heimasida{% endblock %}
+{% block content %}
+
+    <ul>
+
+        {% for frett in frettir %}
+
+        <li class="listi"><img src="{{ frett[3] }}" class="mynd"><a href="/frett/{{ frett[0] }}">{{ frett[1] }}</a></li>
+
+        {% endfor %}
+
+    </ul>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "default.html" %}
+{% block title %}Heimasida{% endblock %}
+{% block content %}
+
+    <h1>{{ frettir[id][1] }}</h1>
+    <figure>
+        <img src="{{ frettir[id][3] }}" class="frettamynd" >
+        <figcaption>{{ frettir[id][4] }}</figcaption>
+    </figure>
+    <p>{{ frettir[id][2] }}</p>
+
+{% endblock %}

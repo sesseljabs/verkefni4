@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    width: 60%;
+    flex-flow: column;
+    margin: auto;
+}
+header {
+    background-color: rgb(10, 114, 10);
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.nav {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    background-color: lightgreen;
+}
+ul, li {
+    margin-left: 0;
+    margin: 0;
+    padding-left: 0;
+}
+ul li {
+    list-style-type: none;
+}
+
+.content {
+    min-height: 200px;
+    padding: 10px;
+}
+.mynd {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+.listi {
+    display: flex;
+    align-items: center;
+}
+.frettamynd {
+    display: flex;
+    width: 70%;
+    height: auto;
+}
+figure {
+    margin: 40px;
+}
+
+footer {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
